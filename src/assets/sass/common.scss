@@ -323,3 +323,35 @@ input {
     transform: rotate(360deg);
   }
 } 
+
+
+@media(max-width: 885px){
+    .list_box{
+        justify-content: center;
+    }
+
+.btn_name1{
+    padding: 10px 20px;
+}
+.btn_name2{
+    padding: 10px 20px;
+}
+.btn_name3{
+    padding: 10px 20px;
+}
+}
+
+@media(max-width: 430px){
+.btn_name1{
+    padding: 10px 20px;
+}
+.btn_name2{
+    padding: 10px 20px;
+}
+.btn_name3{
+    padding: 10px 20px;
+}
+input{
+    font-size: 13px;
+}
+}
